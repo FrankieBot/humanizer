@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Preserve the source language, regional usage, intentional language mixing, and technical terms unless the user requests a change. Apply English examples by meaning rather than imposing English grammar on other languages.
+- Honor requests for only the final rewrite or a specific output format while keeping the draft review internal.
+
 ## 3.1.0
 
 - Added pattern #26 and section F for replies that re-explain context the reader already has (#269). It acts on replies, not standalone writing. 26 patterns total.
