@@ -95,6 +95,10 @@ Now humanize this text:
 
 Humanizer follows the sample's rhythm, word choice, punctuation, and deliberate quirks, including dashes if you use them.
 
+It keeps the source language and regional usage unless you ask for a translation or a different locale. English pattern examples guide meaning, not grammar in other languages. Intentional language mixing and technical terms stay intact.
+
+For just the finished text, ask: "Humanize this text and return only the final rewrite." Humanizer still reviews the draft internally and follows your requested output format.
+
 ## How it works
 
 A language model writes whatever is most likely to come next, so by default it makes the choice that fits the widest range of readers and subjects. A person chooses for one reader and one subject. Every tell Humanizer looks for is a form of that default choice: a sentence that signals importance instead of adding a fact, rhythm or formatting applied by rule, an ordinary fact dressed as a pivotal one, text left over from the chat, or a reply that re-explains what the reader already knows.
